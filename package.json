@@ -1,0 +1,17 @@
+{
+  "name": "todo_projet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "jquery": "^3.6.0",
+    "sass": "^1.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
