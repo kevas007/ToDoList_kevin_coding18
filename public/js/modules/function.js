@@ -178,9 +178,6 @@ export function getTodos() {
 
         divTodo.appendChild(liTodo);
 
-        //add de local
-        saveLocale(todoInput.value)
-
         //modif
         //<i class="fal fa-edit"></i>
 
