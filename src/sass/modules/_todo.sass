@@ -1,0 +1,152 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body 
+    background: linear-gradient(120deg, green,rgb(209, 212, 11))
+    min-height: 100vh
+    
+header
+    font-size:1.6rem
+
+
+
+header, form
+    min-height: 30vh
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+form input, form button
+    padding: 0.5rem
+    font-size: 3rem
+    border: none
+    background: white
+
+form button 
+    color:  rgb(209, 212, 11)
+    cursor: pointer
+    transition: all 0.4s ease
+
+form button:hover
+    background: rgb(67, 68, 9)
+    color: greenyellow
+
+.todo-container 
+    display: flex
+    justify-content: center
+    align-items: center
+
+.todo-list
+    min-width: 38%
+    list-style: none
+
+.todo
+    margin: 0.5rem
+    background-color: white
+    color: black
+    display: flex
+    justify-content: space-between
+    align-items: center
+    transition: 0.6s
+
+.todo li
+    flex:1
+
+.item-todo
+    min-width: 1rem
+    font-size: 2rem
+    padding: 0.6rem
+
+.inpMod
+    border: none
+    min-width: 5rem
+    font-size: 1rem
+    padding: 0.6rem
+
+.eff-btn, .complet-btn,.mod-btn
+    background:  rgb(209, 212, 11)
+    color: black
+    border: none
+    cursor: pointer
+    font-size: 2rem
+    padding: 1rem
+
+.complet-btn
+    background: grey
+
+.mod-btn
+    background: green
+
+.fa-trash, .fa-check, .fa-edit
+    pointer-events: none
+
+.completed
+    text-decoration: line-through
+    opacity: 0.7
+
+.down
+    transform: translate(8rem) rotatez(18deg)
+    opacity: 0.3
+
+select
+    -webkit-apparence: none
+    -moz-apparence: none
+    outline: none
+    appearance: none
+    box-shadow: none
+    border: none
+
+.select
+    margin: 1rem
+    position: relative
+    overflow: hidden
+
+select
+    color: yellow
+    width:  10rem
+    background: green
+    padding: 1rem 
+    cursor: pointer
+
+.select::after
+    content: "\25BC"
+    position: absolute
+    background: green
+    top: 0
+    right: 0
+    padding: 1rem
+    pointer-events: none
+    transition: all 0.4s ease
+
+.select:hover::after
+    background: white
+    color: green
+
+.modif
+    padding: 10px
+    font-size: 15px
+    border: none
+    background: grey
+    color: white
+
+.oky 
+    color:  blue
+    cursor: pointer
+    transition: all 0.4s ease
+    padding: 0.5rem
+    font-size: 2rem
+    border: none
+    background: white
+    margin-top: 2px
+.none
+    color:  red
+    cursor: pointer
+    transition: all 0.4s ease
+    padding: 0.5rem
+    font-size: 2rem
+    border: none
+    background: white
+    margin-top: 2px
